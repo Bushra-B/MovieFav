@@ -8,7 +8,24 @@
         type="text/css"
         href="style.css">
         <script>
-            prompt('Do you like movies?');
+            var  Q = prompt('Do you like movies?');
+            function ans() { 
+                 Q;
+                }
+            if (Q == "yes") {
+                alert('Great! enjoy our movies')
+            } else if (Q == "no"){
+                alert('You should try these movies')
+            }  else {
+                alert('Please answer with yes or no')
+                var Q1 = prompt('Do you like movies?');
+                Q1;
+                if (Q1 == "yes") {
+                alert('Great! enjoy our movies')
+            } else if (Q1 == "no"){
+                alert('You should try these movies')
+            }
+            }
             confirm('Do you like our website?');
             alert('Enjoy our movies')
         </script>
